@@ -12,12 +12,12 @@ package pemesanantiket;
 public class Customer {
     private String nama;
     private String email;
-    private int umar;
+    private int umur;
 
     public Customer(String nama, String email, int umar) {
         this.nama = nama;
         this.email = email;
-        this.umar = umar;
+        this.umur = umur;
     }
 
     public String getNama() {
@@ -36,12 +36,12 @@ public class Customer {
         this.email = email;
     }
 
-    public int getUmar() {
-        return umar;
+    public int getUmur() {
+        return umur;
     }
 
-    public void setUmar(int umar) {
-        this.umar = umar;
+    public void setUmur(int umur) {
+        this.umur = umur;
     }
     
 }
