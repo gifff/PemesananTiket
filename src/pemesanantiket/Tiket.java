@@ -14,12 +14,7 @@ public class Tiket {
     private String tujuan;
     private int harga;
 
-    public Tiket(String asal, String tujuan, int harga) {
-        this.asal = asal;
-        this.tujuan = tujuan;
-        this.harga = harga;
-    }
-
+  
     public String getAsal() {
         return asal;
     }

@@ -17,32 +17,16 @@ public class Transaksi {
         this.tiket = tiket;
         this.customer = customer;
     }
-
-    public Tiket getTiket() {
-        return tiket;
-    }
-
-    public void setTiket(Tiket tiket) {
-        this.tiket = tiket;
-    }
-
-    public Customer getCustomer() {
-        return customer;
-    }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
     
     public void printTiket()
     {
         System.out.println("=================== Tiket ===================");
-        System.out.println("Asal    : " + tiket.getAsal());
-        System.out.println("Tujuan  : " + tiket.getTujuan());
-        System.out.println("Data Penumpang : ");
-        System.out.println(" - Nama     : " + customer.getNama());
-        System.out.println(" - Email    : " + customer.getEmail());
-        System.out.println(" - Umur     : " + customer.getUmur());
+        System.out.println("Asal        : " + tiket.getAsal());
+        System.out.println("Tujuan      : " + tiket.getTujuan());
+        System.out.println("=============================================");
+        System.out.println("Nama     : " + customer.getNama());
+        System.out.println("Email    : " + customer.getEmail());
+        System.out.println("Umur     : " + customer.getUmur());
         System.out.println("=============================================");
     }
 }

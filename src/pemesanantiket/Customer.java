@@ -14,11 +14,6 @@ public class Customer {
     private String email;
     private int umur;
 
-    public Customer(String nama, String email, int umar) {
-        this.nama = nama;
-        this.email = email;
-        this.umur = umur;
-    }
 
     public String getNama() {
         return nama;
