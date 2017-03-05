@@ -34,5 +34,15 @@ public class Transaksi {
         this.customer = customer;
     }
     
-    
+    public void printTiket()
+    {
+        System.out.println("=================== Tiket ===================");
+        System.out.println("Asal    : " + tiket.getAsal());
+        System.out.println("Tujuan  : " + tiket.getTujuan());
+        System.out.println("Data Penumpang : ");
+        System.out.println(" - Nama     : " + customer.getNama());
+        System.out.println(" - Email    : " + customer.getEmail());
+        System.out.println(" - Umur     : " + customer.getUmur());
+        System.out.println("=============================================");
+    }
 }
