@@ -12,5 +12,27 @@ package pemesanantiket;
 public class Transaksi {
     private Tiket tiket;
     private Customer customer;
+
+    public Transaksi(Tiket tiket, Customer customer) {
+        this.tiket = tiket;
+        this.customer = customer;
+    }
+
+    public Tiket getTiket() {
+        return tiket;
+    }
+
+    public void setTiket(Tiket tiket) {
+        this.tiket = tiket;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+    
     
 }
